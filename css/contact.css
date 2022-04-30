@@ -1,0 +1,14 @@
+#contact input,
+#contact textarea {
+  border-color: black;
+}
+#contact button {
+  background-color: #6867ac;
+  border-color: black;
+  color: white;
+  transition: 0.3s;
+  width: 100%;
+}
+#contact button:hover {
+  background-color: #4c4b7e;
+}

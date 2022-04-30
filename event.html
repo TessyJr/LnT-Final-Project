@@ -1,0 +1,439 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PuddingFest</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/global.css">
+    <link rel="stylesheet" href="css/event.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <script src="https://kit.fontawesome.com/7c925acf6e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: #6867AC;">
+        <div class="container">
+            <a class="navbar-brand" href="#">PuddingFest</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav ms-auto">
+                    <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                    <a class="nav-link active" href="event.html">Event</a>
+                    <a class="nav-link" href="contact.html">Contact us</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Event Details -->
+    <section id="detailAcara">
+        <div class="container d-flex justify-content-center flex-column gap-3 my-5 py-5">
+            <div class="detailTitle">
+                <h1 class="fw-bolder display-1 text-center">Detail Acara</h1>
+                <h2 class="lead text-center mb-5">Berikut adalah detail acara <span class="fw-bold">PuddingFest</span>
+                    2022
+            </div>
+            <div class="detail">
+                <h2 class="fw-bold display-6 text-start">Nama Acara:</h2>
+                <p class="lead">PuddingFest</p>
+            </div>
+            <div class="detail">
+                <h2 class="fw-bold display-6 text-start">Tanggal Acara:</h2>
+                <p class="lead">27 May 2022 - 29 May 2022</p>
+            </div>
+            <div class="detail">
+                <h2 class="fw-bold display-6 text-start">Lokasi Acara:</h2>
+                <p class="lead">Gedung Pusat Niaga Arena JIEXPO Kemayoran Lantai 1, Jalan Benyamin Suaeb No. 1,
+                    Pademangan Timur, Pademangan, Pademangan
+                    Tim., Pademangan, Kota Jakarta Pusat, DKI Jakarta</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- rangkaian acara -->
+    <section id="rangkaianAcara" class="container d-flex justify-content-center flex-column gap-3 my-5 py-5">
+        <h1 class="fw-bolder display-1 text-center">Rangkaian Acara</h1>
+        <h2 class="lead text-center mb-5">Berikut adalah rangakaian acara <span class="fw-bold">PuddingFest</span>
+            2022</h2>
+        <div class="rangkaian border p-5 shadow-sm rounded">
+            <h2 class="fw-bold display-6 text-start">Electric Commercial Planes</h2>
+            <p class="lead rangkaianDesc">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo minus harum
+                esse, consectetur amet rerum dolorem reiciendis. Exercitationem at in repellat assumenda tempora.
+                Non<span class="dot">...</span><span class="moreText">ullam, mollitia, a numquam cumque qui eius debitis
+                    nostrum earum neque harum optio! Unde, adipisci qui
+                    ipsam quia laborum aliquam assumenda magni, inventore harum, quisquam officia.</span>
+            </p>
+            <p class="showMoreLess fs-5 more">Show More <i class="fa-solid fa-angle-down"></i></p>
+            <p class="showMoreLess fs-5 less d-none">Show Less <i class="fa-solid fa-angle-up"></i></p>
+
+            <div class="speakers d-flex gap-5 flex-wrap">
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara1.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">John Doe</h1>
+                        <h2 class="lead">CPO of Tiger Air</h2>
+                    </div>
+                </div>
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara2.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">Jane Doe</h1>
+                        <h2 class="lead">Head Engineer of Tiger Air</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="rangkaian border p-5 shadow-sm rounded">
+            <h2 class="fw-bold display-6 text-start">Introduction to Floating Hoverboards</h2>
+            <p class="lead rangkaianDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, nihil autem?
+                Provident iste ipsam quia repellat, id repudiandae expedita. Quas dolor impedit ad cum, minus
+                aperiam!<span class="dot">...</span><span class="moreText">Quasi in omnis quia, nisi hic, vero assumenda
+                    voluptates esse repellendus harum odit nostrum, quisquam
+                    perferendis blanditiis numquam distinctio eos facere autem eius libero?</span>
+            </p>
+            <p class="showMoreLess fs-5 more">Show More <i class="fa-solid fa-angle-down"></i></p>
+            <p class="showMoreLess fs-5 less d-none">Show Less <i class="fa-solid fa-angle-up"></i></p>
+            <div class="speakers d-flex gap-5 flex-wrap">
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara2.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">Jane Doe</h1>
+                        <h2 class="lead">Product Designer of Hover</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rangkaian border p-5 shadow-sm rounded">
+            <h2 class="fw-bold display-6 text-start">New Era of Satellite Manufacturing</h2>
+            <p class="lead rangkaianDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque asperiores
+                unde corrupti facilis ratione nulla eaque corporis vero provident modi! Consequuntur rem tempora
+                dolor<span class="dot">...</span><span class="moreText">vitae sed voluptate fuga porro aliquid modi,
+                    dolorem dolorum alias sequi similique ad cumque vel
+                    deleniti ipsa hic voluptatum tempore quos quasi. Facere fuga recusandae iure?</span>
+            </p>
+            <p class="showMoreLess fs-5 more">Show More <i class="fa-solid fa-angle-down"></i></p>
+            <p class="showMoreLess fs-5 less d-none">Show Less <i class="fa-solid fa-angle-up"></i></p>
+            <div class="speakers d-flex gap-5 flex-wrap">
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara1.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">John Doe</h1>
+                        <h2 class="lead">CEO of SpaceY</h2>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div class="rangkaian border p-5 shadow-sm rounded">
+            <h2 class="fw-bold display-6 text-start">The Future of Transportation</h2>
+            <p class="lead rangkaianDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis quisquam totam
+                debitis labore ratione! Distinctio minima ea maiores perferendis molestiae quisquam quam assumenda
+                dolor<span class="dot">...</span><span class="moreText">accusamus! Modi magnam mollitia vero animi
+                    ratione dolore sequi assumenda consectetur necessitatibus
+                    corporis ea odit nesciunt libero non, perspiciatis sunt tempore cum harum enim inventore vel!</span>
+            </p>
+            <p class="showMoreLess fs-5 more">Show More <i class="fa-solid fa-angle-down"></i></p>
+            <p class="showMoreLess fs-5 less d-none">Show Less <i class="fa-solid fa-angle-up"></i></p>
+            <div class="speakers d-flex gap-5 flex-wrap">
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara1.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">John Doe</h1>
+                        <h2 class="lead">CPO of Tasle</h2>
+                    </div>
+                </div>
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara1.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">John Doe</h1>
+                        <h2 class="lead">CTO of Tasle</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="rangkaian border p-5 shadow-sm rounded">
+            <h2 class="fw-bold display-6 text-start">Testing Drive-through Supermarkets</h2>
+            <p class="lead rangkaianDesc">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reiciendis,
+                distinctio nemo odit nisi voluptates suscipit dolorum similique esse, exercitationem magni modi<span
+                    class="dot">...</span><span class="moreText">temporibus veritatis qui explicabo nobis quod eius
+                    sequi. Dicta quis placeat autem sint libero quos ad,
+                    facere, eos asperiores ducimus similique minus doloremque delectus nulla deleniti amet cumque
+                    eaque!</span>
+            </p>
+            <p class="showMoreLess fs-5 more">Show More <i class="fa-solid fa-angle-down"></i></p>
+            <p class="showMoreLess fs-5 less d-none">Show Less <i class="fa-solid fa-angle-up"></i></p>
+            <div class="speakers d-flex gap-5 flex-wrap">
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara2.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">Jane Doe</h1>
+                        <h2 class="lead">Product Tester of Carrefive</h2>
+                    </div>
+                </div>
+                <div class="speaker border rounded-pill p-3 d-flex gap-4">
+                    <img src="asset/pembicaraAcara2.jpg" alt="pembicara acara" class="rounded-circle">
+                    <div class="speakerDesc d-flex flex-column my-auto me-4 d-none d-lg-block">
+                        <h1 class="fw-bolder">Jane Doe</h1>
+                        <h2 class="lead">CPO of Carrefive</h2>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pembicara sebelumnya -->
+    <section class="pembicara my-5 py-5">
+        <div class="container">
+            <h1 class="fw-bolder display-1 text-center">Pembicara Sebelumnya</h1>
+            <div class="row align-items-center justify-content-center">
+                <div class="col-lg-10">
+                    <div id="carouselExampleCaptions" class="carousel slide mt-3" data-bs-ride="carousel">
+
+                        <div class="carousel-indicators">
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0"
+                                class="active" aria-current="true" aria-label="Slide 1"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                                aria-label="Slide 2"></button>
+                            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                                aria-label="Slide 3"></button>
+                        </div>
+                        <div class="carousel-inner" style="background-color: #6867AC;">
+                            <div class="carousel-item active">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5">
+                                        <img src="asset/pembicara1.jpg" class="w-100" alt="pembicara 1">
+                                    </div>
+                                    <div class="col-lg-7 text-light p-5">
+                                        <div class="h1 text-center fw-bolder mb-5 display-4">Pembicara 1</div>
+                                        <div class="carousel-text display-6">
+                                            <span class="fw-normal">Nama</span>: Christopher Nathanael<br>
+                                            <span class="fw-normal">Perusahaan</span>: Nitflex<br>
+                                            <span class="fw-normal">Teknologi</span>: Movie streaming site<br>
+                                            <span class="fw-normal">Tahun</span>: 2019<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5">
+                                        <img src="asset/pembicara2.jpg" class="w-100" alt="pembicara 2">
+                                    </div>
+                                    <div class="col-lg-7 text-light p-5">
+                                        <div class="h1 text-center fw-bolder mb-5 display-4">Pembicara 2</div>
+                                        <div class="carousel-text display-6">
+                                            <span class="fw-normal">Nama</span>: Christopher Nathanael<br>
+                                            <span class="fw-normal">Perusahaan</span>: Nitflex<br>
+                                            <span class="fw-normal">Teknologi</span>: Movie streaming site<br>
+                                            <span class="fw-normal">Tahun</span>: 2019<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="row align-items-center">
+                                    <div class="col-lg-5">
+                                        <img src="asset/pembicara3.jpg" class="w-100" alt="pembicara 3">
+                                    </div>
+                                    <div class="col-lg-7 text-light p-5">
+                                        <div class="h1 text-center fw-bolder mb-5 display-4">Pembicara 3</div>
+                                        <div class="carousel-text display-6">
+                                            <span class="fw-normal">Nama</span>: Christopher Nathanael<br>
+                                            <span class="fw-normal">Perusahaan</span>: Nitflex<br>
+                                            <span class="fw-normal">Teknologi</span>: Movie streaming site<br>
+                                            <span class="fw-normal">Tahun</span>: 2019<br>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                            data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- timeline acara -->
+    <section id="timeline" class="container d-flex justify-content-center flex-column gap-3 my-5 py-5">
+        <h1 class="fw-bolder display-1 text-center">Timeline Acara</h1>
+        <h2 class="lead text-center mb-5">Berikut adalah timeline dari seluruh rangkaian acara <span
+                class="fw-bold">PuddingFest</span> tahun ini</h2>
+
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <div id="content">
+                        <ul class="timeline">
+                            <li class="event">
+                                <h1 class="fw-bolder mb-4">27 May 2022: 12:30pm - 2:00pm</h1>
+                                <h3>Electric Commercial Planes</h3>
+                                <p class="lead">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iusto ipsa
+                                    modi illo itaque
+                                    quis fuga!</p>
+                            </li>
+                            <li class="event">
+                                <h1 class="fw-bolder mb-4">27 May 2022: 2:30pm - 4:00pm</h1>
+                                <h3>Introduction to Floating Hoverboards</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium id
+                                    culpa
+                                    suscipit inventore, necessitatibus dolorem!</p>
+                            </li>
+                            <li class="event">
+                                <h1 class="fw-bolder mb-4">28 May 2022: 12:30pm - 2:00pm</h1>
+                                <h3>New Era of Satellite Manufacturing</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugiat illum
+                                    inventore iste
+                                    cumque officia omnis?</p>
+                            </li>
+                            <li class="event">
+                                <h1 class="fw-bolder mb-4">28 May 2022: 2:30pm - 4:00pm</h1>
+                                <h3>The Future of Transportation</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam labore
+                                    a architecto
+                                    laborum officia iure?</p>
+                            </li>
+                            <li class="event">
+                                <h1 class="fw-bolder mb-4">29 May 2022: 12:30pm - 1:00pm</h1>
+                                <h3>Testing Drive-through Supermarkets</h3>
+                                <p class="lead">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore soluta
+                                    mollitia
+                                    provident facilis animi quibusdam.</p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+    </section>
+
+    <!-- Registration form -->
+    <section id="registrasi" class="py-5 my-5">
+        <div class="container">
+            <h1 class="fw-bolder display-1 text-center">Registrasi</h1>
+            <p class="lead text-center">
+                Tertarik untuk ikut acara PuddingFest? <span class="fw-bold">Daftar </span> disini sekarang juga!
+            </p>
+
+            <form action="" class="d-flex flex-column gap-2 fs-5" id="regisForm">
+                <div class="d-flex flex-column">
+                    <label for="nama">Nama:</label>
+                    <input type="text" id="nama" class="px-2 border-2 rounded">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="email">Email:</label>
+                    <input type="text" id="email" class="px-2 border-2 rounded " ">
+                    <p class=" text-danger"></p>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="telepon">Nomor telepon:</label>
+                    <input type="text" id="telepon" class="px-2 border-2 rounded ">
+                    <p class="text-danger"></p>
+                </div>
+                <div class="d-flex flex-column">
+                    <label for="event">Event yang akan diikuti:</label>
+                    <select id="event" class="px-2 border-2 rounded ">
+                        <option value="Event 1">Electric Commercial Planes</option>
+                        <option value="Event 2">Introduction to Floating Hoverboards</option>
+                        <option value="Event 3">New Era of Satellite Manufacturing</option>
+                        <option value="Event 4">The Future of Transportation</option>
+                        <option value="Event 5">Testing Drive-through Supermarkets</option>
+                    </select>
+                </div>
+                <div class="pt-3">
+                    <p id="status"></p>
+                    <p class="text-warning" id="status"></p>
+                </div>
+                <div class="">
+                    <button type="submit" id="submitBtn" class="rounded px-4 border-1 py-2">Register</button>
+                </div>
+            </form>
+        </div>
+
+    </section>
+
+
+    <!-- footer -->
+    <footer id="footer" class="text-center text-white mt-5" style="background-color: #6867AC;">
+        <div class="container p-4 pb-0">
+            <section class="mb-4 d-flex justify-content-center gap-2">
+                <!-- Facebook -->
+                <a href="https://www.facebook.com/" style="color: #3b5998;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social facebook m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.twitter.com/" style="color: #55acee;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social twitter m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fab fa-twitter"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.youtube.com/" style="color: #ff0000;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social youtube m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.instagram.com/" style="color: #dd2a7b;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social instagram m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fab fa-instagram"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.linkedin.com/" style="color: #0082ca;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social linkedin m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fab fa-linkedin-in"></i>
+                    </div>
+                </a>
+
+                <a href="https://www.github.com/" style="color: #333333;" target="_blank" rel="noopener noreferrer">
+                    <div
+                        class="social github m-1 rounded-circle border-0 d-flex align-items-center justify-content-center fs-5">
+                        <i class="fab fa-github"></i>
+                    </div>
+                </a>
+            </section>
+        </div>
+        <div class="text-center p-3 fs-5" style="background-color: rgba(0, 0, 0, 0.2);">
+            © 2022 Copyright:
+            <a class="text-white" href="#">PuddingFest</a>
+        </div>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/firebase/7.14.1-0/firebase.js"></script>
+    <script src=" https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script src="js/event.js"></script>
+
+</body>
+
+</html>
