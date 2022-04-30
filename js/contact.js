@@ -103,6 +103,7 @@ $("#contactForm").submit(function (e) {
     telepon.css("border-color") == "rgb(0, 128, 0)" &&
     pesan.css("border-color") == "rgb(0, 128, 0)"
   ) {
+    //   Firebase
     let newPesan = database.push();
     newPesan.set({
       nama: nama.val(),

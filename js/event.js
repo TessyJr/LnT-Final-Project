@@ -111,12 +111,30 @@ $("#regisForm").submit(function (e) {
     telepon.css("border-color") == "rgb(0, 128, 0)" &&
     event.css("border-color") == "rgb(0, 128, 0)"
   ) {
+    // firebase
     let newRegis = database.push();
     newRegis.set({
       nama: nama.val(),
       email: email.val(),
       telepon: telepon.val(),
       event: event.find(":selected").text(),
+    });
+
+    // JSON
+    jsonObject = {
+      nama: "",
+      email: "",
+      telepon: "",
+      event: "",
+    };
+
+    jsonObject.nama = nama.val();
+    jsonObject.email = email.val();
+    jsonObject.telepon = telepon.val();
+    jsonObject.event = event.find(":selected").text();
+
+    $.post("http://localhost:3000/registrasi", jsonObject, function () {
+      alert("Registrasi BERHASIL!");
     });
 
     $("#status").text("Registrasi BERHASIL!");
